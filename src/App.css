@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+::-webkit-scrollbar{
+  background: #333232; 
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2b4973; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(22, 47, 92); 
+}
+/* 
+@keyframes appear-right{
+  from {
+    opacity: 0;
+    transform: translate(-40rem);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0px);
+  }
+}
+@keyframes appear-left{
+  from {
+    opacity: 0;
+    transform: translate(300px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0px);
+  }
+}
+@keyframes backInDown {
+  0% {
+      transform: translateY(-50px);
+      opacity: 0;
+  }
+  60% {
+      transform: translateY(30px);
+      opacity: 1;
+  }
+  100% {
+      transform: translateY(0);
+      opacity: 1;
+  }
+} */
+
+.animate{
+  animation: appear-right linear;
+  animation-timeline: view();
+  animation-range: entry cover 40%;
+}
+.animate-two{
+  animation: appear-left linear;
+  animation-timeline: view();
+  animation-range: entry cover 40%;
+}
+.animate-three{
+  animation: backInDown linear;
+  animation-timeline: view();
+  animation-range: entry cover 40%;
+}
