@@ -60,17 +60,17 @@ const About = () => {
           About Me
         </h1>
       </div>
-      <div className="container mx-auto flex flex-col lg:flex-row items-center lg:items-start gap-8 px-4 lg:p-6">
-        <div className="flex-shrink-0">
-          <img
+      <div className="container mx-auto flex flex-col  items-center lg:items-start gap-8 px-4 lg:p-6">
+        <div className="w-full  flex m-auto  justify-center">
+          <img 
             title="Ukeje Isaac"
             ref={aboutImageRef}
             src={aboutbanner}
             alt="Ukeje Isaac"
-            className="h-[20rem] lg:h-[30rem] rounded-lg animate about-image profile-pic"
+            className="h-[20rem] lg:h-[30rem]  rounded-lg animate about-image flex profile-pic"
           />
         </div>
-        <div className="text-left max-w-2xl mb-5">
+        <div className=" w-full text-justify mb-5">
           <h1 className="text-4xl text-start md:text-center tracking-widest font-bold mb-4 text-black about-text">
             Ukeje Isaac
           </h1>

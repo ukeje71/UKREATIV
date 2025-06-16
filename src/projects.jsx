@@ -585,7 +585,7 @@ const Projects = () => {
               ))}
             </motion.div>
             <a
-              href="https://Phils.vercel.app/"
+              href="https://Phil-catering.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-500 hover:underline flex items-center"
@@ -609,7 +609,7 @@ const Projects = () => {
           </div>
           <div className="flex justify-end ml-0 lg:ml-2 mb-5 lg:mb-0">
             <a
-              href="https://phils.vercel.app"
+              href="https://github.com/ukeje71/Phil-Catering"
               target="_blank"
               rel="noopener noreferrer"
             >

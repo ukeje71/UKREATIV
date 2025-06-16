@@ -25,7 +25,7 @@ const Banner = () => {
           </p>
           <div className="mt-16">
             <div className="flex flex-col md:flex-row gap-5 lg:gap-10 lg:w-[40rem] justify-center lg:items-center">
-              <div className="flex items-end text-lg bg-[#091A48] rounded-full w-72 lg:w-full px-2 py-3">
+              <div className="flex items-end text-lg bg-[#091A48] rounded-full w-72 lg:w-full px-2 py-3 text-white">
                 <img
                   src={location}
                   alt="Location"
@@ -33,7 +33,7 @@ const Banner = () => {
                 />
                 Abia State, Nigeria
               </div>
-              <div className="flex items-end text-lg bg-[#091A48] rounded-full w-72 lg:w-full px-2 py-3">
+              <div className="flex items-end text-lg bg-[#091A48] rounded-full w-72 lg:w-full px-2 py-3 text-white">
                 <img
                   src={dot}
                   alt="Availability"

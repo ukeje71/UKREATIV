@@ -3,7 +3,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { motion } from "framer-motion";
 import gsap from "gsap";
 import "./App.css";
-import logo from "./assets/mylogo.png";
+// import logo from "./assets/mylogo.png";
 import menu from "./assets/menu.png";
 import Banner from "./banner.jsx";
 import About from "./about.jsx";
@@ -51,12 +51,12 @@ function App() {
         <div className="container mx-auto lg:flex justify-between items-center py-4">
           <div className="text-center flex justify-between px-3 lg:px-0">
             <a href="/wisdom-portfolio/">
-              <img
+              {/* <img
                 src={logo}
                 alt="Logo"
-                title="Ukeje Isaac"
-                className="flex h-14 lg:h-28 lg:hover:scale-125 transition-all"
-              />
+                title="Ukeje Isaac" */}
+              <p className="flex h-14 lg:h-28 lg:hover:scale-125 transition-all font-bold text-2xl">UKreativ</p>  
+              {/* /> */}
             </a>
             <img
               src={menu}
