@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
-import frenzy from "./assets/Frenzy.webm";
-import phily from "./assets/Phily.webm";
-import Graceland from "./assets/Graceland.webm";
-import Civic from "./assets/Civic-connect.webm";
+import Frenzy from "./assets/Frenzy(1).png";
+import Phils from "./assets/Phils.png";
+import Graceland from "./assets/Graceland.png";
+import Civic from "./assets/Civic-Connect.png";
 import PhilsCake from "./assets/PhilsCake.png";
 import pitchbot from "./assets/pitchbot.png";
 import weather from "./assets/weather.png";
@@ -283,9 +283,11 @@ const Projects = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <video autoPlay loop muted id="Video">
-                <source src={frenzy} type="video/mp4" />
-              </video>
+              <img
+                src={Frenzy}
+                alt="img"
+                className="rounded-lg w-full h-full lg:w-[130rem] lg:h-[20rem] animate-two"
+              />
             </a>
           </div>
         </motion.div>
@@ -449,9 +451,11 @@ const Projects = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <video autoPlay loop muted id="Video">
-                <source src={Graceland} type="video/mp4" />
-              </video>
+              <img
+                src={Graceland}
+                type="video/mp4"
+                className="rounded-lg w-full h-full lg:w-[130rem] lg:h-[20rem] animate-two"
+              />
             </a>
           </div>
         </motion.div>
@@ -531,9 +535,11 @@ const Projects = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <video autoPlay loop muted id="Video">
-                <source src={Civic} type="video/mp4" />
-              </video>
+              <img
+                src={Civic}
+                alt="img"
+                className="rounded-lg w-full h-full lg:w-[130rem] lg:h-[20rem] animate-two"
+              />
             </a>
           </div>
         </motion.div>
@@ -613,9 +619,11 @@ const Projects = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <video autoPlay loop muted id="Video">
-                <source src={phily} type="video/mp4" />
-              </video>
+              <img
+                src={Phils}
+                alt="img"
+                className="rounded-lg w-full h-full lg:w-[130rem] lg:h-[20rem] animate-two"
+              />
             </a>
           </div>
         </motion.div>
