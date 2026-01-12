@@ -1,4 +1,4 @@
-import bannerimg from "./assets/Ukeje-isaac .jpg";
+import bannerimg from "./assets/Ukeje71.jpg";
 import location from "./assets/location.png";
 import dot from "./assets/dot.png";
 import github from "./assets/github.png";
