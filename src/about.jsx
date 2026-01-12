@@ -97,7 +97,7 @@ const About = () => {
             follow me on
             <span>
               <a
-                href="https://x.com/WisdomEzeh60329"
+                href="https://x.com/ukeje71"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-700 hover:underline underline-offset-4"
