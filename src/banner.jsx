@@ -54,7 +54,7 @@ const Banner = () => {
                   bounce: 2, // Higher value means more bounce
                 }}
                 viewport={{ once: true }}
-                href="https://github.com/Ashes-code"
+                href="https://github.com/ukeje71"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -73,7 +73,7 @@ const Banner = () => {
                   bounce: 2, // Higher value means more bounce
                 }}
                 viewport={{ once: true }}
-                href="https://www.linkedin.com/in/wisdomezeh-ashdom"
+                href="https://www.linkedin.com/in/ukeje-isaac-7280a1332?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -96,7 +96,7 @@ const Banner = () => {
                   bounce: 2, // Higher value means more bounce
                 }}
                 viewport={{ once: true }}
-                href="https://x.com/WisdomEzeh60329"
+                href="https://x.com/ukeje71"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -115,7 +115,7 @@ const Banner = () => {
                   bounce: 2, // Higher value means more bounce
                 }}
                 viewport={{ once: true }}
-                href="https://www.facebook.com/share/1Ane87maTJ/"
+                href="https://www.facebook.com/profile.php?id=100092532492898"
                 target="_blank"
                 rel="noopener noreferrer"
               >
