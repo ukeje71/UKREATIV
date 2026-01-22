@@ -63,12 +63,12 @@ const Contact = () => {
             transition={{
               duration: 0.8,
               type: "spring",
-              stiffness: 150, // Controls how stiff the motion is
-              damping: 7, // Controls how much it bounces
-              bounce: 1, // Higher value means more bounce
+              stiffness: 150, 
+              damping: 7, 
+              bounce: 1, 
             }}
             viewport={{ once: true }}
-            href="https://github.com/Ashes-code"
+            href="https://github.com/ukeje71"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -81,12 +81,12 @@ const Contact = () => {
               duration: 0.8,
               delay: 0.3,
               type: "spring",
-              stiffness: 150, // Controls how stiff the motion is
-              damping: 7, // Controls how much it bounces
-              bounce: 1, // Higher value means more bounce
+              stiffness: 150,
+              damping: 7, 
+              bounce: 1, 
             }}
             viewport={{ once: true }}
-            href="https://www.linkedin.com/in/wisdomezeh-ashdom"
+            href="https://www.linkedin.com/in/ukeje-isaac"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -99,12 +99,12 @@ const Contact = () => {
               duration: 0.8,
               delay: 0.6,
               type: "spring",
-              stiffness: 150, // Controls how stiff the motion is
-              damping: 7, // Controls how much it bounces
-              bounce: 1, // Higher value means more bounce
+              stiffness: 150,
+              damping: 7, 
+              bounce: 1, 
             }}
             viewport={{ once: true }}
-            href="https://x.com/WisdomEzeh60329"
+            href="https://x.com/ukeje719"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -117,12 +117,12 @@ const Contact = () => {
               duration: 0.8,
               delay: 0.9,
               type: "spring",
-              stiffness: 150, // Controls how stiff the motion is
-              damping: 7, // Controls how much it bounces
-              bounce: 1, // Higher value means more bounce
+              stiffness: 150, 
+              damping: 7, 
+              bounce: 1, 
             }}
             viewport={{ once: true }}
-            href="https://www.facebook.com/share/1Ane87maTJ/"
+            href="https://www.facebook.com/profile.php?id=100092532492898"
             target="_blank"
             rel="noopener noreferrer"
           >

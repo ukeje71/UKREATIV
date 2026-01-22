@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import aboutbanner from "./assets/ukeje71";
+import aboutbanner from "./assets/ukeje71.jpg";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
